@@ -320,7 +320,7 @@ export function LibraryPage() {
           <div className={styles.searchBar}>
             <input
               className={`${uiStyles.input} ${styles.searchInput}`}
-              placeholder="Search by name, description or tag"
+              placeholder="Search by name"
               value={q}
               onChange={(e) => setQ(e.target.value)}
             />
