@@ -1,6 +1,6 @@
 # 3D Asset Hub 
 
-A full-stack web application for uploading, inspecting, versioning and validating 3D assets.
+A full-stack web application for managing 3D assets.
 
 | Objective | Where it lives |
 |---|---|
@@ -51,21 +51,21 @@ downloadable, while `latest` always resolves to the newest revision.
 weighted into a 0–100 score, and any non-passing rule carries concrete remediation advice.
 
 ---
-## Running the project
-# Clone the repository:
+# Running the project
+## Clone the repository:
 
 git clone https://github.com/YOUR-USERNAME/3DAsset_Hub.git
 
 Move into the project directory:
 cd 3DAsset_Hub
 
-# Install Client Dependencies
+## Install Client Dependencies
 Open a terminal in the project folder and run:
 cd client
 npm install
 
 
-# Install Server Dependencies
+## Install Server Dependencies
 
 Open another terminal and run:
 cd server
@@ -74,7 +74,7 @@ npm install
 Create the required .env file inside the server folder.
 Replace the values with your own configuration.
 
-# 1. Start the Server
+## 1. Start the Server
 Open a terminal:
 
 cd server
@@ -83,7 +83,7 @@ npm run dev
 The backend server will start on the configured port, for example:
 http://localhost:5000
 
-# 2. Start the Client
+## 2. Start the Client
 Open a second terminal:
 
 cd client
