@@ -51,4 +51,46 @@ downloadable, while `latest` always resolves to the newest revision.
 weighted into a 0–100 score, and any non-passing rule carries concrete remediation advice.
 
 ---
+## Running the project
+# Clone the repository:
 
+git clone https://github.com/YOUR-USERNAME/3DAsset_Hub.git
+
+Move into the project directory:
+cd 3DAsset_Hub
+
+# Install Client Dependencies
+Open a terminal in the project folder and run:
+cd client
+npm install
+
+
+# Install Server Dependencies
+
+Open another terminal and run:
+cd server
+npm install
+
+Create the required .env file inside the server folder.
+Replace the values with your own configuration.
+
+# 1. Start the Server
+Open a terminal:
+
+cd server
+npm run dev
+
+The backend server will start on the configured port, for example:
+http://localhost:5000
+
+# 2. Start the Client
+Open a second terminal:
+
+cd client
+npm run dev
+
+Vite will provide a local URL, usually:
+http://localhost:5173
+Open the displayed URL in your browser.
+
+The project now runs on the localhost
