@@ -5,7 +5,7 @@
   min-height: 320px;
   border-radius: var(--radius);
   overflow: hidden;
-  background: radial-gradient(circle at 50% 40%, #1c2333 0%, #0d1118 70%);
+  background: radial-gradient(circle at 50% 40%, #4a6cbc 0%, #234072 70%);
 }
 
 .canvas {
@@ -69,7 +69,7 @@
   border-radius: 6px;
   font-size: 11px;
   color: var(--text-dim);
-  background: rgba(13, 17, 24, 0.7);
+  background: rgba(41, 58, 88, 0.7);
   border: 1px solid var(--border);
 }
 
