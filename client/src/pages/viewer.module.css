@@ -25,7 +25,7 @@
   justify-content: center;
   gap: 12px;
   color: var(--text-muted);
-  background: rgba(11, 14, 20, 0.75);
+  background: rgba(19, 57, 133, 0.75);
   text-align: center;
   padding: 24px;
 }
@@ -41,7 +41,7 @@
   gap: 6px;
   padding: 8px;
   border-radius: var(--radius-sm);
-  background: rgba(13, 17, 24, 0.82);
+  background: rgba(101, 145, 221, 0.82);
   backdrop-filter: blur(8px);
   border: 1px solid var(--border);
 }
